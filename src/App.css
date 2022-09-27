@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: linear-gradient(rgb(176, 212, 241),
+            rgb(231, 161, 210),
+            rgb(244, 244, 248));
+  height:1000px;
+}
+input{
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: rgb(146, 216, 216);
+}
+button{
+  width: 250px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50px;
+  background-color: rgb(100, 160, 160);
+  border: 1px solid black;
+
+
+}
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+#box{
+  width: 450px;
+  /* height: 80px; */
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(218, 90, 111);
+}
+
+#box2{
+  width: 1100px;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: rgb(90, 199, 218);
+  margin-left: 120px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
